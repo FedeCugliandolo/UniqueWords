@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DFFE8031940EBCC004C5280 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFE8021940EBCC004C5280 /* main.m */; };
+		7DFFE8061940EBCC004C5280 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFE8051940EBCC004C5280 /* AppDelegate.m */; };
+		7DFFE8091940EBCC004C5280 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFE8081940EBCC004C5280 /* ViewController.m */; };
+		7DFFE80C1940EBCC004C5280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFFE80A1940EBCC004C5280 /* Main.storyboard */; };
+		7DFFE80E1940EBCC004C5280 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DFFE80D1940EBCC004C5280 /* Images.xcassets */; };
+		7DFFE81A1940EBCC004C5280 /* UniqueWordsFromTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFE8191940EBCC004C5280 /* UniqueWordsFromTextTests.m */; };
+		7DFFE8251940EBFD004C5280 /* origin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7DFFE8241940EBFD004C5280 /* origin.txt */; };
+		7DFFE83319412777004C5280 /* NewWordsWithDuplicates.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7DFFE83219412777004C5280 /* NewWordsWithDuplicates.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DFFE8141940EBCC004C5280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DFFE7F51940EBCC004C5280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DFFE7FC1940EBCC004C5280;
+			remoteInfo = UniqueWordsFromText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DFFE7FD1940EBCC004C5280 /* UniqueWordsFromText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniqueWordsFromText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFFE8011940EBCC004C5280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DFFE8021940EBCC004C5280 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DFFE8041940EBCC004C5280 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DFFE8051940EBCC004C5280 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DFFE8071940EBCC004C5280 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7DFFE8081940EBCC004C5280 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DFFE80B1940EBCC004C5280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DFFE80D1940EBCC004C5280 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7DFFE8131940EBCC004C5280 /* UniqueWordsFromTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniqueWordsFromTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFFE8181940EBCC004C5280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DFFE8191940EBCC004C5280 /* UniqueWordsFromTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniqueWordsFromTextTests.m; sourceTree = "<group>"; };
+		7DFFE8241940EBFD004C5280 /* origin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = origin.txt; sourceTree = "<group>"; };
+		7DFFE83219412777004C5280 /* NewWordsWithDuplicates.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NewWordsWithDuplicates.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DFFE7FA1940EBCC004C5280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFFE8101940EBCC004C5280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DFFE7F41940EBCC004C5280 = {
+			isa = PBXGroup;
+			children = (
+				7DFFE7FF1940EBCC004C5280 /* UniqueWordsFromText */,
+				7DFFE8161940EBCC004C5280 /* UniqueWordsFromTextTests */,
+				7DFFE7FE1940EBCC004C5280 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DFFE7FE1940EBCC004C5280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DFFE7FD1940EBCC004C5280 /* UniqueWordsFromText.app */,
+				7DFFE8131940EBCC004C5280 /* UniqueWordsFromTextTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DFFE7FF1940EBCC004C5280 /* UniqueWordsFromText */ = {
+			isa = PBXGroup;
+			children = (
+				7DFFE8231940EBE2004C5280 /* Texts */,
+				7DFFE8041940EBCC004C5280 /* AppDelegate.h */,
+				7DFFE8051940EBCC004C5280 /* AppDelegate.m */,
+				7DFFE8071940EBCC004C5280 /* ViewController.h */,
+				7DFFE8081940EBCC004C5280 /* ViewController.m */,
+				7DFFE80A1940EBCC004C5280 /* Main.storyboard */,
+				7DFFE80D1940EBCC004C5280 /* Images.xcassets */,
+				7DFFE8001940EBCC004C5280 /* Supporting Files */,
+			);
+			path = UniqueWordsFromText;
+			sourceTree = "<group>";
+		};
+		7DFFE8001940EBCC004C5280 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DFFE8011940EBCC004C5280 /* Info.plist */,
+				7DFFE8021940EBCC004C5280 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DFFE8161940EBCC004C5280 /* UniqueWordsFromTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DFFE8191940EBCC004C5280 /* UniqueWordsFromTextTests.m */,
+				7DFFE8171940EBCC004C5280 /* Supporting Files */,
+			);
+			path = UniqueWordsFromTextTests;
+			sourceTree = "<group>";
+		};
+		7DFFE8171940EBCC004C5280 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DFFE8181940EBCC004C5280 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DFFE8231940EBE2004C5280 /* Texts */ = {
+			isa = PBXGroup;
+			children = (
+				7DFFE83219412777004C5280 /* NewWordsWithDuplicates.txt */,
+				7DFFE8241940EBFD004C5280 /* origin.txt */,
+			);
+			name = Texts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DFFE7FC1940EBCC004C5280 /* UniqueWordsFromText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DFFE81D1940EBCC004C5280 /* Build configuration list for PBXNativeTarget "UniqueWordsFromText" */;
+			buildPhases = (
+				7DFFE7F91940EBCC004C5280 /* Sources */,
+				7DFFE7FA1940EBCC004C5280 /* Frameworks */,
+				7DFFE7FB1940EBCC004C5280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniqueWordsFromText;
+			productName = UniqueWordsFromText;
+			productReference = 7DFFE7FD1940EBCC004C5280 /* UniqueWordsFromText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DFFE8121940EBCC004C5280 /* UniqueWordsFromTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DFFE8201940EBCC004C5280 /* Build configuration list for PBXNativeTarget "UniqueWordsFromTextTests" */;
+			buildPhases = (
+				7DFFE80F1940EBCC004C5280 /* Sources */,
+				7DFFE8101940EBCC004C5280 /* Frameworks */,
+				7DFFE8111940EBCC004C5280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DFFE8151940EBCC004C5280 /* PBXTargetDependency */,
+			);
+			name = UniqueWordsFromTextTests;
+			productName = UniqueWordsFromTextTests;
+			productReference = 7DFFE8131940EBCC004C5280 /* UniqueWordsFromTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DFFE7F51940EBCC004C5280 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Fede;
+				TargetAttributes = {
+					7DFFE7FC1940EBCC004C5280 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					7DFFE8121940EBCC004C5280 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 7DFFE7FC1940EBCC004C5280;
+					};
+				};
+			};
+			buildConfigurationList = 7DFFE7F81940EBCC004C5280 /* Build configuration list for PBXProject "UniqueWordsFromText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DFFE7F41940EBCC004C5280;
+			productRefGroup = 7DFFE7FE1940EBCC004C5280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DFFE7FC1940EBCC004C5280 /* UniqueWordsFromText */,
+				7DFFE8121940EBCC004C5280 /* UniqueWordsFromTextTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DFFE7FB1940EBCC004C5280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFFE80C1940EBCC004C5280 /* Main.storyboard in Resources */,
+				7DFFE80E1940EBCC004C5280 /* Images.xcassets in Resources */,
+				7DFFE8251940EBFD004C5280 /* origin.txt in Resources */,
+				7DFFE83319412777004C5280 /* NewWordsWithDuplicates.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFFE8111940EBCC004C5280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DFFE7F91940EBCC004C5280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFFE8091940EBCC004C5280 /* ViewController.m in Sources */,
+				7DFFE8061940EBCC004C5280 /* AppDelegate.m in Sources */,
+				7DFFE8031940EBCC004C5280 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFFE80F1940EBCC004C5280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFFE81A1940EBCC004C5280 /* UniqueWordsFromTextTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DFFE8151940EBCC004C5280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DFFE7FC1940EBCC004C5280 /* UniqueWordsFromText */;
+			targetProxy = 7DFFE8141940EBCC004C5280 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DFFE80A1940EBCC004C5280 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DFFE80B1940EBCC004C5280 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DFFE81B1940EBCC004C5280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DFFE81C1940EBCC004C5280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DFFE81E1940EBCC004C5280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = UniqueWordsFromText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7DFFE81F1940EBCC004C5280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = UniqueWordsFromText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7DFFE8211940EBCC004C5280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UniqueWordsFromText.app/UniqueWordsFromText";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UniqueWordsFromTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		7DFFE8221940EBCC004C5280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UniqueWordsFromText.app/UniqueWordsFromText";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UniqueWordsFromTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DFFE7F81940EBCC004C5280 /* Build configuration list for PBXProject "UniqueWordsFromText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DFFE81B1940EBCC004C5280 /* Debug */,
+				7DFFE81C1940EBCC004C5280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DFFE81D1940EBCC004C5280 /* Build configuration list for PBXNativeTarget "UniqueWordsFromText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DFFE81E1940EBCC004C5280 /* Debug */,
+				7DFFE81F1940EBCC004C5280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7DFFE8201940EBCC004C5280 /* Build configuration list for PBXNativeTarget "UniqueWordsFromTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DFFE8211940EBCC004C5280 /* Debug */,
+				7DFFE8221940EBCC004C5280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DFFE7F51940EBCC004C5280 /* Project object */;
+}
