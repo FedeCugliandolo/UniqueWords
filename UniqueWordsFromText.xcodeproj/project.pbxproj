@@ -420,6 +420,7 @@
 				7DFFE81F1940EBCC004C5280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DFFE8201940EBCC004C5280 /* Build configuration list for PBXNativeTarget "UniqueWordsFromTextTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +429,7 @@
 				7DFFE8221940EBCC004C5280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

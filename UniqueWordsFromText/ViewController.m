@@ -48,13 +48,11 @@
     newBookString = [newBookString stringByReplacingOccurrencesOfString:@"!" withString:@""];
     newBookString = [newBookString stringByReplacingOccurrencesOfString:@";" withString:@""];
     newBookString = [newBookString stringByReplacingOccurrencesOfString:@"’" withString:@"'"];
-    newBookString = [newBookString stringByReplacingOccurrencesOfString:@"'" withString:@""];
     newBookString = [newBookString stringByReplacingOccurrencesOfString:@"“" withString:@""];
     newBookString = [newBookString stringByReplacingOccurrencesOfString:@"”" withString:@""];
-    newBookString = [newBookString stringByReplacingOccurrencesOfString:@"ñ" withString:@"ni"];
     newBookString = [newBookString stringByReplacingOccurrencesOfString:@"\"" withString:@""];
     newBookString = [newBookString stringByReplacingOccurrencesOfString:@"…" withString:@""];
-    newBookString = [newBookString stringByReplacingOccurrencesOfString:@"´" withString:@""];
+    newBookString = [newBookString stringByReplacingOccurrencesOfString:@"´" withString:@"'"];
     newBookString = [newBookString stringByReplacingOccurrencesOfString:@"\"" withString:@""]; // leave it last
     newBookString = [newBookString lowercaseString];
     // Getting the new words set
@@ -90,6 +88,7 @@
     NSString *docFile = [docDir stringByAppendingPathComponent:[NSString stringWithFormat:@"UniqueWords-%@.txt", NEW_BOOK_NAME ]];
     [[NSFileManager defaultManager] createFileAtPath:docFile contents:nil attributes:nil];
     [strUniqueFromSet writeToFile:docFile atomically:YES encoding:NSUTF8StringEncoding error:nil];
+    NSLog(@"Guardado en: %@", docFile);
 }
 
 - (void)viewDidLoad {
@@ -118,6 +117,7 @@
         strUniqueFromSet = [strUniqueFromSet stringByAppendingString:[NSString stringWithFormat:@"%@\n",word]];
     }
     [strUniqueFromSet writeToFile:docFile atomically:YES encoding:NSUTF8StringEncoding error:nil];
+    NSLog(@"Guardado en: %@", docFile);
 }
 
 - (void)didReceiveMemoryWarning {
